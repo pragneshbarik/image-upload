@@ -1,5 +1,5 @@
 const url =
-  "https://script.google.com/macros/s/AKfycbxTSWGsOpsd70OZfQsYmm0JGgCHBHsmD6ZDL2lQCo4d2N8N_bpzAUsJqkcUIEiD6aRg/exec";
+  "https://script.google.com/macros/s/AKfycbxpkFPcDX3pIBS0Po2raF1mpqZVL19MWzXYxFjYyW3eitA5FAm_C7D8FLsIlumSemm_/exec";
 
 fetch(url)
   .then((response) => {
