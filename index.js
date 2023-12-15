@@ -19,6 +19,10 @@ fetch(url)
         "https://drive.google.com/uc?export=view&id=" +
         data.images[i].split("=")[1];
       img.alt = "Image";
+      img.height = 400;
+      img.width = 300;
+      img.className = "object-cover p-4";
+      img.style = "object-fit:cover; margin:32px";
       imageContainer.appendChild(img);
     }
   })
